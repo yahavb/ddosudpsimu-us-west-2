@@ -8,9 +8,9 @@ spec:
       cpu: 20k
   provider:
     securityGroupSelector:
-      karpenter.sh/discovery: eks-cluster-sg-ddosudpsimu-us-west-2
+      karpenter.sh/discovery: ddosudpsimu-us-west-2
     subnetSelector:
-      karpenter.sh/discovery: SubnetPublic
+      karpenter.sh/discovery: ddosudpsimu-us-west-2
   requirements:
   - key: node.kubernetes.io/instance-type
     operator: In
