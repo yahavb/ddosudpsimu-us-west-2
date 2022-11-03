@@ -61,6 +61,8 @@ spec:
       labels:
         app: spot-interrupt-handler
     spec:
+      nodeSelector:
+        karpenter.sh/provisioner-name: default
       serviceAccountName: spot-interrupt-handler
       #hostNetwork: true
       containers:
