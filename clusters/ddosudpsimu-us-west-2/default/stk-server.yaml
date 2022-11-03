@@ -56,6 +56,7 @@ metadata:
   labels:
     app: stksrv
   name: stksrv
+  namespace: default
 spec:
   replicas: 1
   selector:
