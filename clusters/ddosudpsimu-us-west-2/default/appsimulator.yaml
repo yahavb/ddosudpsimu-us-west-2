@@ -81,6 +81,12 @@ spec:
           value: "https://sqs.us-west-2.amazonaws.com/441218111557/vertscaler-state"
         - name: DEPLOY_NAME
           value: "appsimulator"
+        - name: RADIAN_INTERVAL
+          value: "0.168"
+        - name: RADIAN_MAX
+          value: "3.14"
+        - name: MIN_AT_CYCLE_START
+          value: "1"
         image: 441218111557.dkr.ecr.us-west-2.amazonaws.com/game-load-simu:20221104091239
         imagePullPolicy: Always
         name: appsimulator
