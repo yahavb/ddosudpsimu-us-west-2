@@ -81,7 +81,7 @@ spec:
           value: "https://sqs.us-west-2.amazonaws.com/441218111557/vertscaler-state"
         - name: DEPLOY_NAME
           value: "appsimulator"
-        image: 441218111557.dkr.ecr.us-west-2.amazonaws.com/game-load-simu:20221104085700
+        image: 441218111557.dkr.ecr.us-west-2.amazonaws.com/game-load-simu:20221104091239
         imagePullPolicy: Always
         name: appsimulator
         command: ["/appsimulator.sh"]
